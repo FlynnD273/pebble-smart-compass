@@ -1,0 +1,39 @@
+{
+	"name": "Smart Compass",
+	"author": "MakeAwesomeHappen",
+	"version": "1.0.0",
+	"keywords": [
+		"pebble-app"
+	],
+	"private": true,
+	"dependencies": {
+		"@rebble/clay": "^1.0.6",
+		"geomagnetism": "^0.2.0"
+	},
+	"pebble": {
+		"displayName": "Smart Compass",
+		"uuid": "3128778a-bb77-4655-83ce-77b724e3e5d6",
+		"sdkVersion": "3",
+		"enableMultiJS": true,
+		"targetPlatforms": [
+			"aplite",
+			"basalt",
+			"chalk",
+			"diorite",
+			"emery",
+			"flint"
+		],
+		"watchapp": {
+			"watchface": false
+		},
+		"messageKeys": [
+			"CompassDecl",
+			"HasLocation",
+			"CompassTargetAngle",
+			"TargetAddress"
+		],
+		"resources": {
+			"media": []
+		}
+	}
+}

@@ -1,0 +1,14 @@
+[
+	{
+		"directory": "/home/flynn/Documents/Pebble/pebble-compass",
+		"arguments": [
+			"gcc",
+			"-I/home/flynn/.pebble-sdk/SDKs/current/toolchain/arm-none-eabi/arm-none-eabi/include",
+			"-I/home/flynn/.pebble-sdk/SDKs/current/sdk-core/pebble/basalt/include",
+			"-Ibuild/include/",
+			"-Iinclude/",
+			"-Ibuild/basalt/"
+		],
+		"file": "*.*"
+	}
+]
